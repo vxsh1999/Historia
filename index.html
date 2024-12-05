@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em algum lugar nas estrelas</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Após perder a sua mãe Jack Backer tem uma conversa séria com seu pai, que acha que seria melhor para seu filho mandá-lo para uma escola para garotos.</p>
+            <button class="btn-proximo" data-proximo="1">arrumar suas malas agora</button>
+            <button class="btn-proximo" data-proximo="2">arrumar suas malas depois</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Após organizar suas coisas ele vai dormir para acordar cedo. No outro dia, Jack vai para a sua nova escola que se chama Morton Hill, depois de arrumar suas coisas no dormitório Jack sai de seu quarto para conhecer o lugar. Ele sai do prédio para explorar os arredores, até que o menino encontra uma praia. Ele começa a andar pela areia e avista alguém. Era um estudante de lá.</p>
+            <button class="btn-proximo" data-proximo="3">ir falar com ele</button>
+            <button class="btn-proximo" data-proximo="4">não quero perturbá-lo</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Jack decide arrumar suas malas mais tarde, ele resolve fazer algo</p>
+            <button class="btn-proximo" data-proximo="5">ir comer</button>
+            <button class="btn-proximo" data-proximo="15">ir jogar vídeo game</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Jack cumprimenta o garoto:"Oi eu sou o Jack, qual seu nome?"</p>
+            <button class="btn-proximo" data-proximo="6">Continuar a conversa</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Jack decide não falar com o garoto e volta a andar pelas redondezas da escola. Depois de um tempo andando ele volta para seu dormitório e se prepara para dormir.</p>
+            <button class="btn-proximo" data-proximo="10">dormir</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Jack vai para cozinha, pega um pedaço de bolo para comer</p>
+            <button class="btn-proximo" data-proximo="7">sentar-se na mesa para lanchar</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>O menino olha para Jack e responde:"Oi Jack, me chamo Early, você é novo aqui?"</p>
+            <button class="btn-proximo" data-proximo="8">os dois continuam conversando</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Depois de terminar de comer ele vai tomar seu banho e depois vai pegar suas coisas para por na mala.</p>
+            <button class="btn-proximo" data-proximo="9">vai para o quarto</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>[...]Early:"A biblioteca daqui é muito bonita, você quer ir lá?"</p>
+            <button class="btn-proximo" data-proximo="11">ir</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Jack acaba de separar suas coisas e vai dormir. Porém, o garoto tem um sonho um tanto quanto estranho.</p>
+            <button class="btn-proximo" data-proximo="13">ver sonho</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>No outro dia ele acorda e as coisas se repetem, ele vê o garoto mas não interage com ele. Jack passa reto.</p>
+            <button class="btn-proximo" data-proximo="12">ir fazer suas atividades</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11.png" alt="biblioteca da escola">
+            <p>Os garotos vão para lá e criam uma amizade bonita e complicada. Porém os meses vão se passando e um sentimento diferente surge entre eles. Por muito tempo Jackie(o jeito que Early o chama, assim como a mãe de Jack chamava), não expõe seus sentimentos para seu amigo, apesar de querer muito.
+                Um tempo depois de modo despretencioso Jack conta o que sente e Early assume que também sentia isso. E é assim que Jackie conta o começo despretencioso:
+                "Na primeira vez que o vi, ele enchia sacos e mais sacos de areia e os empilhava como se fosse tijolos. Estava tentando impedir que o mar levasse alguma coisa, mas não sabia o quê. O que ele fazia era meio maluco, mas alguma coisa em mim entendia. Eu só fiquei ali olhando enquanto ele construía a muralha de sacos de areia.
+Sabia que Early Auden não podia isolar o oceano . Porém, o mais estranho dos garotos me salvou de ser arrastado." 
+            </p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Após realizar suas atividades Jack vai para a biblioteca e passa o resto do dia lá. Até que a noite chega</p>
+            <button class="btn-proximo" data-proximo="14">voltar pro quarto</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <p>Em seu sonho havia um garoto jovem, dos cabelos ondulados e avermelhados, os olhos mais lindos que Jack já viu. O garoto se aproxima de Jack e dá um sorriso leve e desajeitado e diz: "Um dia a gente se encontra!"</p>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <p>Jack ouve algumas músicas e depois se deita e sonha com uma pessoa</p>
+            <button class="btn-proximo" data-proximo="13">dormir</button>
+        </div>
+
+        <div class="passo" id="passo-15">
+            <p>Ele fica jogando por um tempo e depois vai organizar suas roupas</p>
+            <button class="btn-proximo" data-proximo="16">ir para o quarto</button>
+        </div>
+
+        <div class="passo" id="passo-16">
+            <p>Quando termina suas coisas ele vai comer para depois ir dormir</p>
+            <button class="btn-proximo" data-proximo="17">ir comer</button>
+        </div>
+
+        <div class="passo" id="passo-17">
+            <p>Terminada a sua refeição, Jack, todo ansioso vai se deitar </p>
+            <button class="btn-proximo" data-proximo="13">ver sonho</button>
+        </div>
+
+        <div class="passo" id="passo-18">
+            <p>Quando termina suas coisas ele vai comer para depois ir dormir</p>
+            <button class="btn-proximo" data-proximo="13">ir comer</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
